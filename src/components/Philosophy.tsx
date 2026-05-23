@@ -47,7 +47,7 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Наша философия
+              О нас
             </p>
 
             <h2
@@ -55,10 +55,10 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Искусство
-              <span className="italic"> осознанной</span>
+              Твоё
+              <span className="italic"> время</span>
               <br />
-              жизни
+              начинается здесь
             </h2>
 
             <div
@@ -67,13 +67,12 @@ export function Philosophy() {
               }`}
             >
               <p>
-                Мы верим, что каждое пространство таит в себе потенциал для преображения. Не через добавление,
-                а через бережное вычитание — открывая то, что всегда было предначертано.
+                Мы верим, что студенческие годы — это не только учёба. Это время открытий, дружбы и первых
+                больших проектов. Наше пространство создано, чтобы каждый мог найти своё место.
               </p>
               <p>
-                Наш подход вдохновлён японской концепцией <em className="text-foreground">ма</em> — глубокой
-                красотой пустоты — и скандинавским пониманием
-                <em className="text-foreground"> хюгге</em>, этого ощущения уютного умиротворения.
+                Здесь проходят мастер-классы, хакатоны, творческие вечера и профессиональные встречи. Мы объединяем
+                студентов разных специальностей, чтобы вместе создавать <em className="text-foreground">что-то большее</em>.
               </p>
             </div>
 
@@ -84,16 +83,16 @@ export function Philosophy() {
               }`}
             >
               <div>
+                <p className="font-serif text-3xl md:text-4xl text-sage">500+</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Студентов</p>
+              </div>
+              <div>
+                <p className="font-serif text-3xl md:text-4xl text-sage">80+</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Мероприятий</p>
+              </div>
+              <div>
                 <p className="font-serif text-3xl md:text-4xl text-sage">12</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет опыта</p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">140+</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Проектов</p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">8</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Наград</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Клубов</p>
               </div>
             </div>
           </div>
